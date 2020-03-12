@@ -1,0 +1,9 @@
+
+  <ion-calendar [(ngModel)]="date"
+  (onChange)="onChange($event)"
+  [options]="options"
+  type="string"
+  format="YYYY-MM-DD"
+ (monthChange)="monthChanger($event)"
+  >
+</ion-calendar>

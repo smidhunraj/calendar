@@ -1,0 +1,13 @@
+
+  button.days-btn.my-cal.marked {
+  
+    background-color:gold !important;
+     }
+     button.days-btn.dot:before{
+      --height: 25px;
+      --width: 25px;
+      --background-color:gold;
+      --border-radius: 50%;
+      --display: inline-block;
+    }
+    
